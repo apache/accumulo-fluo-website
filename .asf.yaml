@@ -26,8 +26,8 @@ github:
     - fluo
     - accumulo
     - big-data
-    - hacktoberfest
     - asf-site
+    - hacktoberfest
   features:
     wiki: false
     issues: true
