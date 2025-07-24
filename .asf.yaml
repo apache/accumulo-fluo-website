@@ -39,6 +39,7 @@ staging:
 
 publish:
   whoami:  asf-site
+  hostname: fluo.apache.org
 
 jekyll:
   whoami: main
