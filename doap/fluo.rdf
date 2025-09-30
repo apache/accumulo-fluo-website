@@ -22,14 +22,14 @@
     <license rdf:resource="http://usefulinc.com/doap/licenses/asl20"/>
     <name>Apache Fluo</name>
     <homepage rdf:resource="https://fluo.apache.org"/>
-    <asfext:pmc rdf:resource="https://fluo.apache.org"/>
+    <asfext:pmc rdf:resource="https://accumulo.apache.org"/>
     <description>Apache Fluo is a distributed processing system that lets users
       make incremental updates to large data sets. With Apache Fluo, users can
       set up workflows that execute cross node transactions when data changes.
       These workflows enable users to continuously join new data into large
       existing data sets without reprocessing all data. Apache Fluo is built on
       Apache Accumulo.</description>
-    <bug-database rdf:resource="https://github.com/apache/fluo/issues"/>
+    <bug-database rdf:resource="https://github.com/apache/accumulo-fluo/issues"/>
     <mailing-list rdf:resource="https://fluo.apache.org/contactus"/>
     <download-page rdf:resource="https://fluo.apache.org/releases/"/>
     <programming-language>Java</programming-language>
@@ -57,14 +57,14 @@
     </release>
     <repository>
       <GitRepository>
-        <location rdf:resource="https://gitbox.apache.org/repos/asf/fluo.git"/>
-        <browse rdf:resource="https://gitbox.apache.org/repos/asf?p=fluo.git"/>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/accumulo-fluo.git"/>
+        <browse rdf:resource="https://github.com/apache/accumulo-fluo"/>
       </GitRepository>
     </repository>
     <maintainer>
       <foaf:Person>
-        <foaf:name>Keith Turner</foaf:name>
-        <foaf:mbox rdf:resource="mailto:kturner@apache.org"/>
+        <foaf:name>Apache Accumulo PMC</foaf:name>
+        <foaf:mbox rdf:resource="mailto:dev@accumulo.apache.org"/>
       </foaf:Person>
     </maintainer>
   </Project>

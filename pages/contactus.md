@@ -25,13 +25,13 @@ The `notifications` and `commits` mailing lists receive email from automated ser
 and can be used to observe project activity.  Design and code review discussion happen on GitHub issues and pull request.  These discussions are archived
 to the notifications list.
 
-dev@fluo.apache.org           | [Subscribe][dev-sub]     | [Unsubscribe][dev-unsub]    | [Archive][dev-arch]
-notifications@fluo.apache.org | [Subscribe][ntfy-sub]    | [Unsubscribe][ntfy-unsub]   | [Archive][ntfy-arch]
-commits@fluo.apache.org       | [Subscribe][commits-sub] | [Unsubscribe][commits-unsub]| [Archive][commits-arch]
+dev@accumulo.apache.org           | [Subscribe][dev-sub]     | [Unsubscribe][dev-unsub]    | [Archive][dev-arch]
+notifications@accumulo.apache.org | [Subscribe][ntfy-sub]    | [Unsubscribe][ntfy-unsub]   | [Archive][ntfy-arch]
+commits@accumulo.apache.org       | [Subscribe][commits-sub] | [Unsubscribe][commits-unsub]| [Archive][commits-arch]
 
 ### Slack
 
-Drop by and chat about Fluo at the `#fluo` channel on the [ASF Slack workspace][asf-slack]. Join using this [invite link][slack-invite]. If you have trouble joining, email `dev@fluo.apache.org` for an invite.
+Drop by and chat about Fluo at the `#fluo` channel on the [ASF Slack workspace][asf-slack]. Join using this [invite link][slack-invite]. If you have trouble joining, email `dev@accumulo.apache.org` for an invite.
 
 ### Issues
 
@@ -67,14 +67,14 @@ Contributions are welcome to all Apache Fluo projects! If you would like help ge
 [ei]: https://github.com/apache/fluo-examples/issues
 [htc]: /how-to-contribute/
 [rtc]: https://www.apache.org/foundation/glossary.html#ReviewThenCommit
-[dev-arch]: https://lists.apache.org/list.html?dev@fluo.apache.org
-[ntfy-arch]: https://lists.apache.org/list.html?notifications@fluo.apache.org
-[commits-arch]: https://lists.apache.org/list.html?commits@fluo.apache.org
-[dev-sub]: mailto:dev-subscribe@fluo.apache.org
-[dev-unsub]: mailto:dev-unsubscribe@fluo.apache.org
-[ntfy-sub]: mailto:notifications-subscribe@fluo.apache.org
-[ntfy-unsub]: mailto:notifications-unsubscribe@fluo.apache.org
-[commits-sub]: mailto:commits-subscribe@fluo.apache.org
-[commits-unsub]: mailto:commits-unsubscribe@fluo.apache.org
+[dev-arch]: https://lists.apache.org/list.html?dev@accumulo.apache.org
+[ntfy-arch]: https://lists.apache.org/list.html?notifications@accumulo.apache.org
+[commits-arch]: https://lists.apache.org/list.html?commits@accumulo.apache.org
+[dev-sub]: mailto:dev-subscribe@accumulo.apache.org
+[dev-unsub]: mailto:dev-unsubscribe@accumulo.apache.org
+[ntfy-sub]: mailto:notifications-subscribe@accumulo.apache.org
+[ntfy-unsub]: mailto:notifications-unsubscribe@accumulo.apache.org
+[commits-sub]: mailto:commits-subscribe@accumulo.apache.org
+[commits-unsub]: mailto:commits-unsubscribe@accumulo.apache.org
 [asf-slack]: https://the-asf.slack.com/
 [slack-invite]: https://s.apache.org/slack-invite

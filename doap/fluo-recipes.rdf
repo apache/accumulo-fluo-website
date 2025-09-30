@@ -22,7 +22,7 @@
     <license rdf:resource="http://usefulinc.com/doap/licenses/asl20"/>
     <name>Apache Fluo Recipes</name>
     <homepage rdf:resource="https://fluo.apache.org"/>
-    <asfext:pmc rdf:resource="https://fluo.apache.org"/>
+    <asfext:pmc rdf:resource="https://accumulo.apache.org"/>
     <description>Apache Fluo Recipes build on the Fluo API to offer additional
       functionality to developers. They are published separately from Fluo on
       their own release schedule. This allows Fluo Recipes to iterate and
@@ -30,7 +30,7 @@
       slower release cycle). Fluo Recipes offers code to implement common
       patterns on top of Fluo's API. It also offers glue code to external
       libraries like Spark and Kryo.</description>
-    <bug-database rdf:resource="https://github.com/apache/fluo-recipes/issues"/>
+    <bug-database rdf:resource="https://github.com/apache/accumulo-fluo-recipes/issues"/>
     <mailing-list rdf:resource="https://fluo.apache.org/contactus"/>
     <download-page rdf:resource="https://fluo.apache.org/releases/"/>
     <programming-language>Java</programming-language>
@@ -58,14 +58,14 @@
     </release>
     <repository>
       <GitRepository>
-        <location rdf:resource="https://gitbox.apache.org/repos/asf/fluo-recipes.git"/>
-        <browse rdf:resource="https://gitbox.apache.org/repos/asf?p=fluo-recipes.git"/>
+        <location rdf:resource="https://gitbox.apache.org/repos/asf/accumulo-fluo-recipes.git"/>
+        <browse rdf:resource="https://github.com/apache/accumulo-fluo-recipes"/>
       </GitRepository>
     </repository>
     <maintainer>
       <foaf:Person>
-        <foaf:name>Keith Turner</foaf:name>
-        <foaf:mbox rdf:resource="mailto:kturner@apache.org"/>
+        <foaf:name>Apache Accumulo PMC</foaf:name>
+        <foaf:mbox rdf:resource="mailto:dev@accumulo.apache.org"/>
       </foaf:Person>
     </maintainer>
   </Project>
