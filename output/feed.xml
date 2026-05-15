@@ -5,8 +5,8 @@
     <description>Apache Fluo Website</description>
     <link>https://fluo.apache.org//</link>
     <atom:link href="https://fluo.apache.org//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 30 Sep 2025 23:35:53 +0000</pubDate>
-    <lastBuildDate>Tue, 30 Sep 2025 23:35:53 +0000</lastBuildDate>
+    <pubDate>Fri, 15 May 2026 23:42:33 +0000</pubDate>
+    <lastBuildDate>Fri, 15 May 2026 23:42:33 +0000</lastBuildDate>
     <generator>Jekyll v4.3.4</generator>
     
     
@@ -552,7 +552,7 @@ option.  This was not an option with the old APIs.&lt;/p&gt;
 
     &lt;span class=&quot;nc&quot;&gt;ExportQueue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;exportQ&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;ExportQueue&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;getInstance&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;Example&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;EXPORTQ_ID&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;appCfg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;
 
-    &lt;span class=&quot;c1&quot;&gt;// Some of Lambda's below could be inlined. To make the example a little more clear they were&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// Some of Lambda&apos;s below could be inlined. To make the example a little more clear they were&lt;/span&gt;
     &lt;span class=&quot;c1&quot;&gt;// not in order to show the types involved.&lt;/span&gt;
 
     &lt;span class=&quot;c1&quot;&gt;// This is called by a combine queue when a value changes. The old and new value for the key&lt;/span&gt;
@@ -1123,7 +1123,7 @@ Guava, log4j, etc.&lt;/p&gt;
 
 &lt;span class=&quot;c&quot;&gt;# Could not find an easy way to get zookeeper version automatically&lt;/span&gt;
 &lt;span class=&quot;nv&quot;&gt;ZOOKEEPER_SERVER&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;localhost
-&lt;span class=&quot;nv&quot;&gt;ZOOKEEPER_VERSION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;status | nc &lt;span class=&quot;nv&quot;&gt;$ZOOKEEPER_SERVER&lt;/span&gt; 2181 | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;version: | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'s/.*version: \([0-9.]*\).*/\1/'&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
+&lt;span class=&quot;nv&quot;&gt;ZOOKEEPER_VERSION&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo &lt;/span&gt;status | nc &lt;span class=&quot;nv&quot;&gt;$ZOOKEEPER_SERVER&lt;/span&gt; 2181 | &lt;span class=&quot;nb&quot;&gt;grep &lt;/span&gt;version: | &lt;span class=&quot;nb&quot;&gt;sed&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&apos;s/.*version: \([0-9.]*\).*/\1/&apos;&lt;/span&gt;&lt;span class=&quot;sb&quot;&gt;`&lt;/span&gt;
 
 &lt;span class=&quot;c&quot;&gt;# Build the shaded jar&lt;/span&gt;
 mvn package &lt;span class=&quot;nt&quot;&gt;-Daccumulo&lt;/span&gt;.version&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;nv&quot;&gt;$ACCUMULO_VERSION&lt;/span&gt; &lt;span class=&quot;se&quot;&gt;\&lt;/span&gt;
