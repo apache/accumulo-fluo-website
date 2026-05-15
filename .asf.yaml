@@ -47,7 +47,7 @@ github:
       restrict_deletion: true
       restrict_force_push: true
 staging:
-  profile:
+  profile: ~
   whoami: asf-staging
 
 publish:
